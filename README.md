@@ -7,7 +7,7 @@
 Daftar isi
 ---------------------
 1. [Website](#website)
-    - [Index](#index)
+    - [Read](#read)
     - [Create](#create)
     - [Edit](#edit)
     - [Delete](#delete)
@@ -18,8 +18,8 @@ Daftar isi
 
 ## Website
 
-## Index
-![Index](public/img/index.PNG)
+## Read
+![Read](public/img/index.PNG)
 
 <br>
 <br>
