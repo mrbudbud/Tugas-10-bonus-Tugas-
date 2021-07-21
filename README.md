@@ -1,6 +1,6 @@
 # Tugas 10 (Bonus Tugas)
 
-**CRUD** Di sini saya menggunakan frameword Laravel
+**CRUD** Di sini saya menggunakan framework Laravel
 
 <br>
 
