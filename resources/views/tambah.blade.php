@@ -5,7 +5,7 @@
 @section('content')
 <div class="container my-2">
     <div class="jumbotron">
-        <h1 class="display-4">Form Edit Data</h1>
+        <h1 class="display-4">Form Tambah Data</h1>
         <form action="{{route('store')}}" method="POST">
             @csrf
             @method('POST')

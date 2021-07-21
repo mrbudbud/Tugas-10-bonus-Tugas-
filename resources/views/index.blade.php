@@ -42,7 +42,7 @@
                 <tr>
                     <th scope="row">{{$i}}</th>
                     <td>{{$item->nama_produk}}</td>
-                    <td>{{$item->harga}}</td>
+                    <td>{{$item->keterangan}}</td>
                     <td>{{$item->harga}}</td>
                     <td>{{$item->jumlah}}</td>
                     <td>
