@@ -1,5 +1,7 @@
 @extends('bootstrap')
 
+@section('title', 'Edit')
+
 @section('content')
 <div class="container my-2">
     <div class="jumbotron">

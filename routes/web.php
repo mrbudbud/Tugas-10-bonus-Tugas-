@@ -18,3 +18,4 @@ Route::get('/edit/{item}', 'CrudController@edit')->name('edit');
 Route::patch('/edit/{item}', 'CrudController@update')->name('update');
 Route::get('/hapus/{item}', 'CrudController@destroy')->name('hapus');
 Route::get('/tambah', 'CrudController@create')->name('tambah');
+Route::post('/tambah', 'CrudController@store')->name('store');

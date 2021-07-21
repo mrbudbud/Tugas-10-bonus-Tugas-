@@ -1,5 +1,7 @@
 @extends('bootstrap')
 
+@section('title', 'Index')
+
 @section('content')
 
     <div class="container my-2">

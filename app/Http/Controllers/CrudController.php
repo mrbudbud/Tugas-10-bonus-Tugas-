@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Produk;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Validator;
 
 class CrudController extends Controller
 {
@@ -36,7 +37,21 @@ class CrudController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $request->validate([
+            'nama' => "required|min:3",
+            'ket' => "required|min:5",
+            'harga' => "required|integer",
+            'jumlah' => "required|numeric"
+        ]);
+
+        Produk::create([
+            'nama_produk' => $request->nama,
+            'keterangan' => $request->ket,
+            'harga' => $request->harga,
+            'jumlah' => $request->jumlah
+        ]);
+
+        return redirect('/')->with(['success' => 'Data Berhasil Tambah']);
     }
 
     /**
